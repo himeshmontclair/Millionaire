@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUpActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="45dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:drawableLeft="@drawable/ic_user_solid"
+                android:drawablePadding="15dp"
+                android:hint="@string/user_fname"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:drawableLeft="@drawable/ic_user_solid"
+                android:drawablePadding="15dp"
+                android:hint="@string/user_lname"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/family_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:drawableLeft="@drawable/ic_dna"
+                android:drawablePadding="15dp"
+                android:hint="@string/user_famname"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textSize="16dp" />
+
+
+
+            <EditText
+                android:id="@+id/e_mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:drawableLeft="@drawable/ic_contact_mail"
+                android:drawablePadding="15dp"
+                android:hint="@string/user_mail"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textSize="16dp" />
+
+
+
+            <EditText
+                android:id="@+id/mobile_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:drawableLeft="@drawable/ic_phone"
+                android:drawablePadding="15dp"
+                android:hint="@string/mobile_no"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLength="10"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textSize="16dp" />
+
+
+            <EditText
+                android:id="@+id/date_birth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:cursorVisible="false"
+                android:drawableRight="@drawable/ic_calendar"
+                android:drawablePadding="15dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:hint="@string/birthday_mm_dd_yyyy"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:drawableLeft="@drawable/ic_lock"
+                android:drawablePadding="15dp"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:paddingLeft="15dp"
+                android:paddingBottom="15dp"
+                android:singleLine="true"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btn_siginup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/round_blue_btn_bg"
+                android:padding="15dp"
+                android:text="@string/sign_up"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

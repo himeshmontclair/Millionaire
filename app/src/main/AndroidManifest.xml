@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.millionaire">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/appicon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.android.millionaire.activities.Tenth_QActivity"></activity>
+        <activity android:name="com.example.android.millionaire.activities.Ninth_QActivity" />
+        <activity android:name="com.example.android.millionaire.activities.Eigth_QActivity" />
+        <activity android:name="com.example.android.millionaire.activities.Seventh_QActivity" />
+        <activity android:name="com.example.android.millionaire.activities.Sixth_QActivity" />
+        <activity android:name="com.example.android.millionaire.ReviewActivity" />
+        <activity android:name="com.example.android.millionaire.ResultActivity" />
+        <activity android:name="com.example.android.millionaire.activities.Fifth_QActivity" />
+        <activity android:name="com.example.android.millionaire.activities.Fourth_QActivity" />
+        <activity android:name="com.example.android.millionaire.activities.Third_QActivity" />
+        <activity android:name="com.example.android.millionaire.activities.Second_QActivity" />
+        <activity android:name="com.example.android.millionaire.activities.First_QActivity" />
+        <activity android:name="com.example.android.millionaire.SelectActivity" />
+        <activity android:name="com.example.android.millionaire.HomeActivity" />
+        <activity android:name="com.example.android.millionaire.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.millionaire.SignUpActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.android.millionaire.LoginActivity"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+    </application>
+
+</manifest>
